@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+CrossWindow in CWTest, no dependencies
+CWTest in CWTest, depends on:
+CrossWindow in CWTest (explicit)
+ALL_BUILD in CWTest, depends on:
+CWTest in CWTest (explicit)
+CrossWindow in CWTest (explicit)

@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		124B0736CD5045C098AC3BFD /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FBD0A11DB03541F99DDE5A4A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DE7F1B3609A21C1B94657646 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				150BBC8D7A174E1DA6517D11 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05C53075EBC34235B24E4020 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaWindow.h */ = {isa = PBXBuildFile; fileRef = A7835AF50A7B48B8B57C17E1 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaWindow.h */; };
+		137A89BDC1D14C23B72F5243 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/CrossWindow.h */ = {isa = PBXBuildFile; fileRef = 10F52608C5F342F6B8B82249 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/CrossWindow.h */; };
+		26AF5E921DB946C5B374645F /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Main/Main.h */ = {isa = PBXBuildFile; fileRef = 2BFFAFD2C97B4E4CB965E4B0 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Main/Main.h */; };
+		2F495EC9B6A348DCA1FD9169 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/DialogsDesc.h */ = {isa = PBXBuildFile; fileRef = 2AEAC40A8A244E59A793B7B0 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/DialogsDesc.h */; };
+		43424D1E104B41619C7950B2 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaEventQueue.mm */ = {isa = PBXBuildFile; fileRef = 2DAF8F48B92745D29EA3A9D8 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaEventQueue.mm */; };
+		4414BA95B94D49E18196D868 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaEventQueue.h */ = {isa = PBXBuildFile; fileRef = 4949B651B905416A9D2D09DF /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaEventQueue.h */; };
+		6C04A18F8A9D470A84B91DF2 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Dialogs.h */ = {isa = PBXBuildFile; fileRef = 3F6BDA63E88347B6971859CA /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Dialogs.h */; };
+		742ED4D4B65A409BABF7283A /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaWindow.mm */ = {isa = PBXBuildFile; fileRef = 603FB9AEC72C4E73ACD8F4FE /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaWindow.mm */; };
+		77F11B87A0684280BDBA36AD /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Event.cpp */ = {isa = PBXBuildFile; fileRef = 14A15B02D514480C9A82ECB2 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Event.cpp */; };
+		78038C296D1F45D8BCA72D70 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/WindowDesc.h */ = {isa = PBXBuildFile; fileRef = 6D321061B0D04DB381CED162 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/WindowDesc.h */; };
+		81F4201043C947ABA997FDE2 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Dialogs.cpp */ = {isa = PBXBuildFile; fileRef = 9C85FE323DAD412AA8AB903B /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Dialogs.cpp */; };
+		8BCF06FFBAE843C4B7719B5E /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Event.h */ = {isa = PBXBuildFile; fileRef = CC048528EE8A4EE58538FEB4 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Event.h */; };
+		9808ADA5261E42B69EE2528C /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/State.h */ = {isa = PBXBuildFile; fileRef = E5B078EC702448C4A0FFBCF7 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/State.h */; };
+		9C21E9E10E2F4ADD9303AE34 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Init.cpp */ = {isa = PBXBuildFile; fileRef = D683FADF65EE40BBBEEBCADD /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Init.cpp */; };
+		A06870390E2244F8891199FD /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Init.h */ = {isa = PBXBuildFile; fileRef = CE1348F6C4EA4F4EA7709676 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Init.h */; };
+		E683697457AF43DAAB9A7D74 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Window.h */ = {isa = PBXBuildFile; fileRef = F8047CA767674C69BB9B3C0E /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Window.h */; };
+		E6903A1CD58A4144AB7C99BB /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 71E55C76A8674E2881605189 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/CMakeLists.txt */; };
+		E945BC2918C24590B0925B62 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/EventQueue.h */ = {isa = PBXBuildFile; fileRef = 96C55EF3E5D84F6F88B3016D /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/EventQueue.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3F3BE9A7BA1E4F3395DD194F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		4860516F59C841C18777B1F5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D737932B6CBF4D1D9D4DEE32 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FF6F3EED7C2B471E88332443 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		CFB09C89CE8148BDBF9D9644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6F794CAFA034EEFB2BD7221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FC70D4B510469F8D145AB7;
+			remoteInfo = CrossWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F52608C5F342F6B8B82249 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/CrossWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CrossWindow.h; path = src/CrossWindow/CrossWindow.h; sourceTree = SOURCE_ROOT; };
+		14A15B02D514480C9A82ECB2 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Event.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Event.cpp; path = src/CrossWindow/Common/Event.cpp; sourceTree = SOURCE_ROOT; };
+		2AEAC40A8A244E59A793B7B0 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/DialogsDesc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DialogsDesc.h; path = src/CrossWindow/Common/DialogsDesc.h; sourceTree = SOURCE_ROOT; };
+		2BFFAFD2C97B4E4CB965E4B0 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Main/Main.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Main.h; path = src/CrossWindow/Main/Main.h; sourceTree = SOURCE_ROOT; };
+		2DAF8F48B92745D29EA3A9D8 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaEventQueue.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CocoaEventQueue.mm; path = src/CrossWindow/Cocoa/CocoaEventQueue.mm; sourceTree = SOURCE_ROOT; };
+		3F6BDA63E88347B6971859CA /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Dialogs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Dialogs.h; path = src/CrossWindow/Common/Dialogs.h; sourceTree = SOURCE_ROOT; };
+		4949B651B905416A9D2D09DF /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaEventQueue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CocoaEventQueue.h; path = src/CrossWindow/Cocoa/CocoaEventQueue.h; sourceTree = SOURCE_ROOT; };
+		4A033895368648C4B8EB3211 /* CrossWindow */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCrossWindowd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		603FB9AEC72C4E73ACD8F4FE /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaWindow.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CocoaWindow.mm; path = src/CrossWindow/Cocoa/CocoaWindow.mm; sourceTree = SOURCE_ROOT; };
+		6D321061B0D04DB381CED162 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/WindowDesc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WindowDesc.h; path = src/CrossWindow/Common/WindowDesc.h; sourceTree = SOURCE_ROOT; };
+		71E55C76A8674E2881605189 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		72F02A80A8A94EB3B2D0F310 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		96C55EF3E5D84F6F88B3016D /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/EventQueue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EventQueue.h; path = src/CrossWindow/Common/EventQueue.h; sourceTree = SOURCE_ROOT; };
+		9C85FE323DAD412AA8AB903B /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Dialogs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Dialogs.cpp; path = src/CrossWindow/Common/Dialogs.cpp; sourceTree = SOURCE_ROOT; };
+		A7835AF50A7B48B8B57C17E1 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CocoaWindow.h; path = src/CrossWindow/Cocoa/CocoaWindow.h; sourceTree = SOURCE_ROOT; };
+		CC048528EE8A4EE58538FEB4 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Event.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Event.h; path = src/CrossWindow/Common/Event.h; sourceTree = SOURCE_ROOT; };
+		CE1348F6C4EA4F4EA7709676 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Init.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Init.h; path = src/CrossWindow/Common/Init.h; sourceTree = SOURCE_ROOT; };
+		D683FADF65EE40BBBEEBCADD /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Init.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Init.cpp; path = src/CrossWindow/Common/Init.cpp; sourceTree = SOURCE_ROOT; };
+		E5B078EC702448C4A0FFBCF7 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/State.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = State.h; path = src/CrossWindow/Common/State.h; sourceTree = SOURCE_ROOT; };
+		F8047CA767674C69BB9B3C0E /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Window.h; path = src/CrossWindow/Common/Window.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5959D8983A5E4C37B233F6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076439C504A64867938A2E91 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				361675CBE0E74297BED2713C /* CMake Rules */,
+				72F02A80A8A94EB3B2D0F310 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		19001E28A37D437296211330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A033895368648C4B8EB3211 /* CrossWindow */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361675CBE0E74297BED2713C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4323060FA4254A3FAC0ED313 /* Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				4949B651B905416A9D2D09DF /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaEventQueue.h */,
+				2DAF8F48B92745D29EA3A9D8 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaEventQueue.mm */,
+				A7835AF50A7B48B8B57C17E1 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaWindow.h */,
+				603FB9AEC72C4E73ACD8F4FE /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaWindow.mm */,
+			);
+			name = Cocoa;
+			sourceTree = "<group>";
+		};
+		6FDD9B1BECE44B59B20F5F8C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9C85FE323DAD412AA8AB903B /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Dialogs.cpp */,
+				3F6BDA63E88347B6971859CA /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Dialogs.h */,
+				2AEAC40A8A244E59A793B7B0 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/DialogsDesc.h */,
+				14A15B02D514480C9A82ECB2 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Event.cpp */,
+				CC048528EE8A4EE58538FEB4 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Event.h */,
+				96C55EF3E5D84F6F88B3016D /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/EventQueue.h */,
+				D683FADF65EE40BBBEEBCADD /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Init.cpp */,
+				CE1348F6C4EA4F4EA7709676 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Init.h */,
+				E5B078EC702448C4A0FFBCF7 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/State.h */,
+				F8047CA767674C69BB9B3C0E /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Window.h */,
+				6D321061B0D04DB381CED162 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/WindowDesc.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		A14B9E8671CE4A19BEDB1F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B13B35728685476B9C4D7F42 /* CrossWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B7BEC87BD19F4FA29A908A60 /* CrossWindow */,
+				71E55C76A8674E2881605189 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/CMakeLists.txt */,
+			);
+			name = CrossWindow;
+			sourceTree = "<group>";
+		};
+		B7BEC87BD19F4FA29A908A60 /* CrossWindow */ = {
+			isa = PBXGroup;
+			children = (
+				4323060FA4254A3FAC0ED313 /* Cocoa */,
+				6FDD9B1BECE44B59B20F5F8C /* Common */,
+				EA5BF680F5A4401C8D6BADE3 /* Main */,
+				10F52608C5F342F6B8B82249 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/CrossWindow.h */,
+			);
+			name = CrossWindow;
+			sourceTree = "<group>";
+		};
+		BE6F7F6223004DBA99480B86 = {
+			isa = PBXGroup;
+			children = (
+				B13B35728685476B9C4D7F42 /* CrossWindow */,
+				076439C504A64867938A2E91 /* ALL_BUILD */,
+				19001E28A37D437296211330 /* Products */,
+				A14B9E8671CE4A19BEDB1F48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5BF680F5A4401C8D6BADE3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2BFFAFD2C97B4E4CB965E4B0 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Main/Main.h */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1FC70D4B510469F8D145AB7 /* CrossWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71933C7BAFA648C6BA415A9D /* Build configuration list for PBXNativeTarget "CrossWindow" */;
+			buildPhases = (
+				25E7BD1C740342469F36CEF1 /* Sources */,
+				5959D8983A5E4C37B233F6A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossWindow;
+			productName = CrossWindow;
+			productReference = 4A033895368648C4B8EB3211 /* CrossWindow */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F794CAFA034EEFB2BD7221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = C60BED7BD6B24686A2629E2F /* Build configuration list for PBXProject "CrossWindow" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3F3BE9A7BA1E4F3395DD194F /* Debug */,
+				D737932B6CBF4D1D9D4DEE32 /* Release */,
+				4860516F59C841C18777B1F5 /* MinSizeRel */,
+				FF6F3EED7C2B471E88332443 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = BE6F7F6223004DBA99480B86;
+			projectDirPath = "/Users/angg/Documents/Projects/crosswindow-test/external/crosswindow";
+			projectRoot = "";
+			targets = (
+				124B0736CD5045C098AC3BFD /* ALL_BUILD */,
+				E1FC70D4B510469F8D145AB7 /* CrossWindow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DE7F1B3609A21C1B94657646 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/angg/Documents/Projects/crosswindow-test/build/external/crosswindow/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/angg/Documents/Projects/crosswindow-test/build/external/crosswindow
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/angg/Documents/Projects/crosswindow-test/build/external/crosswindow
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/angg/Documents/Projects/crosswindow-test/build/external/crosswindow
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/angg/Documents/Projects/crosswindow-test/build/external/crosswindow
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E7BD1C740342469F36CEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43424D1E104B41619C7950B2 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaEventQueue.mm */,
+				742ED4D4B65A409BABF7283A /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Cocoa/CocoaWindow.mm */,
+				81F4201043C947ABA997FDE2 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Dialogs.cpp */,
+				77F11B87A0684280BDBA36AD /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Event.cpp */,
+				9C21E9E10E2F4ADD9303AE34 /* /Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src/CrossWindow/Common/Init.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		150BBC8D7A174E1DA6517D11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FC70D4B510469F8D145AB7 /* CrossWindow */;
+			targetProxy = CFB09C89CE8148BDBF9D9644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CC3780E1E3243A4A9E444C2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2E22E2BEB75442F6BD24D3B2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		520F3B7AACAE43B082F1E68F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/angg/Documents/Projects/crosswindow-test/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		72B225B39AA5413DAB8388CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/angg/Documents/Projects/crosswindow-test/build/build";
+			};
+			name = Debug;
+		};
+		8A1666C0A4D14ACA864AFDC4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/angg/Documents/Projects/crosswindow-test/build/build";
+			};
+			name = MinSizeRel;
+		};
+		91F20E25217E4B55AF8DC1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9626445A232E4993A388E961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/angg/Documents/Projects/crosswindow-test/build/build";
+			};
+			name = Release;
+		};
+		98C35456A00E4B648849F0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B1C9755709DE4C51BC6EF620 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/angg/Documents/Projects/crosswindow-test/build/external/crosswindow/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'XWIN_COCOA=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++14'   -x objective-c++";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CrossWindow;
+				SECTORDER_FLAGS = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				TARGET_TEMP_DIR = "/Users/angg/Documents/Projects/crosswindow-test/build/build/CrossWindow.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D8AC520AD01C41FF97E3075C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/angg/Documents/Projects/crosswindow-test/build/bin";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'XWIN_COCOA=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++14'   -x objective-c++";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CrossWindow;
+				SECTORDER_FLAGS = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				TARGET_TEMP_DIR = "/Users/angg/Documents/Projects/crosswindow-test/build/build/CrossWindow.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E8A04B5C1AE04AE2B6DEA5EE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/angg/Documents/Projects/crosswindow-test/build/external/crosswindow/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'XWIN_COCOA=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++14'   -x objective-c++";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CrossWindow;
+				SECTORDER_FLAGS = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				TARGET_TEMP_DIR = "/Users/angg/Documents/Projects/crosswindow-test/build/build/CrossWindow.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FCA0C51949604B0BA3E0208A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/angg/Documents/Projects/crosswindow-test/build/bin";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'XWIN_COCOA=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/angg/Documents/Projects/crosswindow-test/external/crosswindow/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++14'   -x objective-c++";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CrossWindowd;
+				SECTORDER_FLAGS = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				TARGET_TEMP_DIR = "/Users/angg/Documents/Projects/crosswindow-test/build/build/CrossWindow.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71933C7BAFA648C6BA415A9D /* Build configuration list for PBXNativeTarget "CrossWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA0C51949604B0BA3E0208A /* Debug */,
+				D8AC520AD01C41FF97E3075C /* Release */,
+				E8A04B5C1AE04AE2B6DEA5EE /* MinSizeRel */,
+				B1C9755709DE4C51BC6EF620 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C60BED7BD6B24686A2629E2F /* Build configuration list for PBXProject "CrossWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B225B39AA5413DAB8388CD /* Debug */,
+				9626445A232E4993A388E961 /* Release */,
+				8A1666C0A4D14ACA864AFDC4 /* MinSizeRel */,
+				520F3B7AACAE43B082F1E68F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBD0A11DB03541F99DDE5A4A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C35456A00E4B648849F0D1 /* Debug */,
+				91F20E25217E4B55AF8DC1E1 /* Release */,
+				1CC3780E1E3243A4A9E444C2 /* MinSizeRel */,
+				2E22E2BEB75442F6BD24D3B2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F794CAFA034EEFB2BD7221 /* Project object */;
+}

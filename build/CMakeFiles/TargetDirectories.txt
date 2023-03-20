@@ -1,0 +1,4 @@
+/Users/angg/Documents/Projects/crosswindow-test/build/CMakeFiles/CWTest.dir
+/Users/angg/Documents/Projects/crosswindow-test/build/CMakeFiles/ALL_BUILD.dir
+/Users/angg/Documents/Projects/crosswindow-test/build/external/crosswindow/CMakeFiles/CrossWindow.dir
+/Users/angg/Documents/Projects/crosswindow-test/build/external/crosswindow/CMakeFiles/ALL_BUILD.dir
